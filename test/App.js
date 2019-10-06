@@ -15,8 +15,8 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-      
-      <WebView source={{ uri: 'https://youtube.com' }} />
+      <View style={{height:30, backgroundColor:'black'}}/>
+      <WebView source={{ uri: 'https://punjab.chitkara.edu.in//Interface/index.php' }} />
       </View>
     );
   }
@@ -25,7 +25,7 @@ export default class App extends Component {
 const styles = StyleSheet.create(
   {
     container:{
-      flex:1,
+      flex:2,
     },
   }
 );
